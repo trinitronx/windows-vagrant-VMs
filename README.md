@@ -11,3 +11,18 @@ How to Use
 These Vagrant boxes are simple to use.  Simply change directory into the folder for the version of windows Vagrant box you want to use and run: `vagrant up`.
 
 To share files into the VM, place them in `data/`.
+
+VMs EXPIRE AFTER 90 DAYS!
+When you first install the VM, set a snapshot you can roll back to later.
+
+License
+=======
+
+The Microsoft Software License Terms for the IE VMs are included in the [release notes][1] and supersede any conflicting Windows license terms included in the VMs. By downloading and using this software, you agree to these [license terms][1].
+
+[1]: http://modernievirt.blob.core.windows.net/vhd/release_notes_license_terms_1_5_15.pdf
+
+Disclaimer
+==========
+
+I am not the maintainer of these VMs.  Do NOT file issues if you have problems with the Vagrant boxes themselves.  These are maintaned by [Modern.ie](http://dev.modern.ie/tools/vms/).
